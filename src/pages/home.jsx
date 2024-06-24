@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/Home.css';
+import Dev from '../../public/dev.jpg';
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
             <h1>Olá! Seja bem-vindo(a)!</h1>
             <p>Este é um exemplo simples de site com React.</p>
           </div>
-          <img className="image" src='../assets/imgs/dev.jpg' alt='Developer' />
+          <img className="image" src={Dev} alt='Developer' />
         </div>
       </div>
       <div className='page-cards'>
