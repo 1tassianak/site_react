@@ -10,7 +10,7 @@ const Home = () => {
             <h1>Olá! Seja bem-vindo(a)!</h1>
             <p>Este é um exemplo simples de site com React.</p>
           </div>
-          <img className="image" src='../../public/dev.jpg' alt='Developer' />
+          <img className="image" src='../assets/imgs/dev.jpg' alt='Developer' />
         </div>
       </div>
       <div className='page-cards'>
