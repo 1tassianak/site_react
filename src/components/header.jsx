@@ -1,12 +1,13 @@
 import React from 'react';
-import './Header.css'; // Import the CSS file for styling
+import './Header.css';
+import Programming from '../../public/programming.png';
 
 const Header = ({ currentPage, setCurrentPage }) => {
   return (
     <div className="header">
       <div className="header-content">
         <div className="logo" onClick={() => setCurrentPage('home')}>
-          <img src='../../public/programming.png' />
+          <img src={Programming} />
         </div>
         <nav>
           <ul>

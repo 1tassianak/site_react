@@ -1,6 +1,9 @@
 import React from 'react';
 import '../assets/styles/Home.css';
 import Dev from '../../public/dev.jpg';
+import Vite from '../../public/vite.jpg';
+import Css from '../../public/cssgradient.jpg';
+import Html from '../../public/htmlcss.jpg';
 
 const Home = () => {
   return (
@@ -17,7 +20,7 @@ const Home = () => {
       <div className='page-cards'>
         <div className="card-container">
           <div className="card">
-            <img src="../../public/vite.jpg" alt="Vite" />
+            <img src={Vite} alt="Vite" />
             <div className="card-content">
               <h2>Vite + React</h2>
               <p>O Vite é um empacotador de módulos desenvolvido para a plataforma JavaScript. 
@@ -26,7 +29,7 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-            <img src="../../public/cssgradient.jpg" alt="CSS Gradient" />
+            <img src={Css} alt="CSS Gradient" />
             <div className="card-content">
               <h2>CSS Gradient</h2>
               <p>Ferramenta gratuita geradora de gradientes CSS, este site permite que você crie um fundo colorido em degradê para seu site, blog ou perfil em redes sociais.</p>
@@ -34,7 +37,7 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-            <img src="../../public/htmlcss.jpg" alt="HTML + CSS" />
+            <img src={Html} alt="HTML + CSS" />
             <div className="card-content">
               <h2>HTML + CSS</h2>
               <p>HTML é a linguagem de marcação usada para estruturar o conteúdo de uma página da web,
